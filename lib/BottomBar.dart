@@ -1,4 +1,5 @@
 import 'package:film/HomeScreen.dart';
+import 'package:film/Kategori.dart';
 import 'package:flutter/material.dart';
 import 'package:film/AccountPage.dart';
 
@@ -32,6 +33,12 @@ class BottomBar extends StatelessWidget {
               size: 30,
             ),
             onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => Kategori(),
+                ),
+              );
             },
           ),
           IconButton(

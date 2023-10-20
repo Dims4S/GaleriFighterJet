@@ -1,7 +1,7 @@
 import 'package:film/BottomBar.dart';
 import 'package:film/FilmDetailPage.dart';
 import 'package:flutter/material.dart';
-import 'package:film/Kategori.dart';
+import 'package:film/HomeScreen.dart';
 
 class HomeScreen extends StatelessWidget {
   
